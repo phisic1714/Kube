@@ -1,7 +1,7 @@
 # MiniKube deploy Rancher Hello world website.
 
 
-![f](https://github.com/phisic1714/Kube/blob/main/screenshot/BrownDoodleCompanyprofilePresentation.png?raw=true)
+![f](screenshot/BrownDoodleCompanyprofilePresentation.png)
 
 This tutorial will show you how to deploy rancher/hello-world website image by local Kubernetes A.K.A MiniKube
 (tutorial นี่จะแสดงวิธีการ deploy ตัว rancher/hello-world เว็ปไซต์ image โดยใช้ local Kubernetes หรืออีกชื่อ MiniKube)
@@ -177,9 +177,9 @@ After Deploy First I will show you my Kubernetes Dashboard (You must do in  [pre
 URL: http://127.0.0.1:57017/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/workloads?namespace=default
 
 
-![f](https://github.com/phisic1714/Kube/blob/main/screenshot/kubedash.png?raw=true)
+![f](screenshot/kubedash.png)
 
-![f](https://github.com/phisic1714/Kube/blob/main/screenshot/traefik.png?raw=true)
+![f](screenshot/kubernetes.png)
 
 
 Now I will show my traefik Dashboard in *HTTPS Routers* You will see the `Host(`web.spcn27.local`)`command of Scripts yml that I set in ingress-deployment.yaml file appear
@@ -189,9 +189,9 @@ Now I will show my traefik Dashboard in *HTTPS Routers* You will see the `Host(`
 URL: https://traefik.spcn27.local/dashboard/#/
 
 
-![f](https://github.com/phisic1714/Kube/blob/main/screenshot/traefikdash.png?raw=true)
+![f](screenshot/traefikdash.png)
 
-![f](https://github.com/phisic1714/Kube/blob/main/screenshot/traefikdash.png?raw=true)
+![f](screenshot/traefik.png)
 
 
 And Now I can Show you web result You will see in *Show request details* button it would show request your domain and pod name from your deploy yml file
