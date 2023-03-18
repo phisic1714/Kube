@@ -1,0 +1,16 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: traefik-ingress
+  namespace: default
+spec:
+  entryPoints:
+    - web
+    - websecure
+  routes:
+  - match: Host(`web.spcn27.local`) # You can change Domain name (คุณสามารถเปลี่ยนชื่อ Domain ได้)
+    kind: Rule
+    services:
+    - name: hello-world
+      namespace: default
+      port: 80
