@@ -53,10 +53,17 @@ Copy users secret from `dashboard-secret.yaml` and replace in `traefik-dashboard
 5. Enable traefik dashbaord  
  `kubectl apply -f traefik-dashboard.yaml`
 
-6. Deploy your nginx  
+ 
+
+>**_WARNING:_** 
+you must run **```minikube dashboard```** for get cluster dashboard
+and **```minikube tunnel```** for route to services
+
+
+1. Deploy your nginx  
  `kubectl apply -f nginx-deployment.yaml`
 
-7. Deploy traefik ingress routes  
+1. Deploy traefik ingress routes  
 `kubectl apply -f ingress-deployment.yaml`
 
 ### To install helm command line.
