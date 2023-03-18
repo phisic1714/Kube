@@ -205,8 +205,7 @@ URL: http://web.spcn27.local/rancher
 
 -----
 ### Reference 
-(อ้างอิง) [top⬆️](#minikube-deploy-rancher-hello-world-website)(#gitea-website-use-postgres-db-by-docker-compose-and-reverse-proxy-for-linux-ubuntu-gitea-website-ใช้-postgres-db-โดย-docker-compose-และ-reverse-proxy-สำหรับ-linux-ubuntu)
-
+(อ้างอิง) [top⬆️](#minikube-deploy-rancher-hello-world-website)
 
 Traefik install repo : https://github.com/iamapinan/kubeplay-traefik
 
