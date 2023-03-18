@@ -55,7 +55,7 @@ Copy users secret from `dashboard-secret.yaml` and replace in `traefik-dashboard
 
  
 
->**_WARNING:_** 
+>:warning:**_WARNING:_** 
 you must run **```minikube dashboard```** for get cluster dashboard
 and **```minikube tunnel```** for route to services
 
